@@ -14,6 +14,9 @@ def count_ways(n):
     return dp[n]
 
 
+
+
+
 # Test the function
 n = int(input("Enter the number of players in the queue: "))
 ways = count_ways(n)
